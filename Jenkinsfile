@@ -7,7 +7,7 @@ pipeline {
 
  stage('Build') {
        steps {
-         sh 'golang build'
+         sh 'go build'
        }
   }
   stage('Unit Tests') {
